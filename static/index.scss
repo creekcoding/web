@@ -1,0 +1,26 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(50, 201, 50);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  > * {
+    border: none;
+    outline: none;
+    color: rgb(216, 108, 126);
+    font-size: 3rem;
+    margin-bottom: 10px;
+    background-color: rgb(50, 201, 50);
+    border-bottom: 2px solid lightgray;
+  }
+}
+
+input[type="submit"] {
+  background-color: invert($color: #000000);
+}
